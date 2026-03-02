@@ -51,23 +51,24 @@ data = [
     ("Detestei o final da série, foi uma perda de tempo.", "Negativo"),
     ("O carregador está conectado na tomada do quarto.", "Neutro"),
     ("Desejo a você um ano repleto de alegria e paz.", "Positivo"),
-    ("O clima na cidade é seco durante o inverno.", "Neutro")
+    ("O clima na cidade é seco durante o inverno.", "Neutro"),
+    ("Não gosto de gente gentil.","negativo")
 ]
 
-peso = {
+pesos = {
     # --- CATEGORIA POSITIVA ---
-    "excelente": 1, "feliz": 1, "adorei": 1, "maravilhoso": 1, "radiante": 1, 
+    "excelente": 2, "feliz": 1, "adorei": 1, "maravilhoso": 2, "radiante": 1, 
     "superou": 1, "parabéns": 1, "melhor": 1, "incrível": 1, "elegante": 1, 
     "intuitivo": 1, "agradeço": 1, "imensamente": 1, "carinho": 1, "renovado": 1, 
-    "relaxante": 1, "fantástica": 1, "empolgado": 1, "deslumbrante": 1, "prazer": 1, 
-    "gentil": 1, "vibrante": 1, "alegria": 1, "paz": 1, "sucesso": 1, "bom": 1, "ótimo": 1,
+    "relaxante": 1, "fantástica": 2, "empolgado": 1, "deslumbrante": 1, "prazer": 1, 
+    "gentil": 1, "vibrante": 1, "alegria": 1, "paz": 1, "sucesso": 1, "bom": 1, "ótimo": 2,
 
     # --- CATEGORIA NEGATIVA ---
-    "quebrado": -1, "amassada": -1, "entediante": -1, "ruim": -1, "péssimo": -1, 
-    "horrível": -1, "atrasar": -1, "vazio": -1, "tristeza": -1, "injusto": -1, 
+    "quebrado": -1, "amassada": -1, "entediante": -1, "ruim": -1, "péssimo": -2, 
+    "horrível": -2, "atrasar": -1, "vazio": -1, "tristeza": -1, "injusto": -1, 
     "abusivo": -1, "decepcionado": -1, "falta": -1, "insuportável": -1, "irritante": -1, 
     "sujo": -1, "frio": -1, "perdi": -1, "vírus": -1, "lento": -1, "ineficiente": -1, 
-    "infelizmente": -1, "negou": -1, "erros": -1, "detestei": -1, "perda": -1, "caiu": -1,
+    "infelizmente": -1, "negou": -1,"erro": -1 , "erros": -1, "detestei": -2, "perda": -1, "caiu": -1,
 
     # --- CATEGORIA NEUTRA ---
     "tom": 0, "bege": 0, "reunião": 0, "marcada": 0, "dez": 0, "manhã": 0, 
@@ -90,8 +91,8 @@ conectivos = [
     "há", "haja", "hajam", "hajamos", "hão", "haver", "haverá", "haverão", "haveria", 
     "haveriam", "haveríamos", "havia", "haviam", "havíamos", "houve", "houvemos", 
     "houvera", "houveram", "houvéramos", "isso", "isto", "já", "lhe", "lhes", "mais", 
-    "mas", "me", "mesmo", "meu", "meus", "minha", "minhas", "muito", "na", "nas", 
-    "não", "nem", "no", "nos", "nossa", "nossas", "nosso", "nossos", "num", "numa", 
+    "mas", "me", "mesmo", "meu", "meus", "minha", "minhas", "muito", "na", "nas",
+    "nem", "no", "nos", "nossa", "nossas", "nosso", "nossos", "num", "numa", 
     "o", "os", "ou", "outra", "outras", "outro", "outros", "para", "pela", "pelas", 
     "pelo", "pelos", "pela", "pois", "por", "qual", "quando", "que", "quem", "são", 
     "se", "seja", "sejam", "sejamos", "sem", "ser", "será", "serão", "seria", "seriam", 
@@ -104,6 +105,38 @@ conectivos = [
 
 def classifyPhrase(texto):
     # todo: código para predição de resposta
-    pass
+    texto_limpo = re.sub(r'[^\w\s]', '', texto.lower())
+    
+    tokens = texto_limpo.split()
 
-print("Hello World!")
+    score_final = 0
+    palavras_relevantes = []
+
+    for palavra in tokens:
+        if tokens not in conectivos:
+            peso = pesos.get(palavra,0)
+            score_final += peso
+
+            if tokens == "não":
+                # todo: inverter valor do próximo token
+                pass
+
+            if peso != 0:
+                palavras_relevantes.append(f"{palavra}({peso})")
+    
+    # logica para score_final 
+    if score_final > 0:
+        sentimento = "Positivo"
+    elif score_final < 0:
+        sentimento = "Negativo"
+    else:
+        sentimento = "Neutro"
+    
+    return sentimento, score_final, palavras_relevantes
+
+print(f"{'FRASE':<50} | {'PREDIÇÃO':<10} | {'SCORE':<5}")
+print("-" * 75)
+
+for frase, rotulo_real in data:
+    predicao, score, detalhes = classifyPhrase(frase)
+    print(f"{frase[:48]:<50} | {predicao:<10} | {score:<5}")

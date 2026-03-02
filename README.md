@@ -21,6 +21,3 @@ $$Score = \sum_{i=1}^{n} Peso(token_i)$$
 * Se $Score > 0$: Positivo. 
 * Se $Score < 0$: Negativo.
 * Se $Score = 0$: Neutro.
-
---- 
-### Execução do código
