@@ -198,34 +198,46 @@
             "sentimento": "Positivo" 
         },
         { 
-            "texto": "O clima na cidade é seco durante o inverno.", 
-            "sentimento": "Neutro" 
-        },
-        { 
-            "texto": "Não gosto de gente gentil.", 
+            "texto": "Não gosto de despedidas.", 
             "sentimento": "negativo" 
         }
     ],
 
     "pesos": {
-        "excelente": 2, "feliz": 1, "adorei": 1, "maravilhoso": 2, "radiante": 1,
-        "superou": 1, "parabéns": 1, "melhor": 1, "incrível": 1, "elegante": 1,
-        "intuitivo": 1, "agradeço": 1, "imensamente": 1, "carinho": 1, "renovado": 1,
-        "relaxante": 1, "fantástica": 2, "empolgado": 1, "deslumbrante": 1, "prazer": 1,
-        "gentil": 1, "vibrante": 1, "alegria": 1, "paz": 1, "sucesso": 1, "bom": 1, "ótimo": 2,
+    "excelente": 2, "maravilhoso": 2, "fantástica": 2, "fantástico": 2, "ótimo": 2, 
+    "deslumbrante": 2, "incrível": 2, "perfeito": 2, "perfeita": 2, "espetacular": 2,
+    "sensacional": 2, "formidável": 2, "divino": 2, "impecável": 2, "fascinante": 2,
+    "adoro": 2, "adorei": 2, "amamos": 2, "amei": 2, "apaixonante": 2,
 
-        "quebrado": -1, "amassada": -1, "entediante": -1, "ruim": -1, "péssimo": -2,
-        "horrível": -2, "atrasar": -1, "vazio": -1, "tristeza": -1, "injusto": -1,
-        "abusivo": -1, "decepcionado": -1, "falta": -1, "insuportável": -1, "irritante": -1,
-        "sujo": -1, "frio": -1, "perdi": -1, "vírus": -1, "lento": -1, "ineficiente": -1,
-        "infelizmente": -1, "negou": -1, "erro": -1, "erros": -1, "detestei": -2, "perda": -1, "caiu": -1,
+    "feliz": 1, "radiante": 1, "superou": 1, "parabéns": 1, "melhor": 1, 
+    "elegante": 1, "intuitivo": 1, "agradeço": 1, "imensamente": 1, "carinho": 1, 
+    "renovado": 1, "relaxante": 1, "empolgado": 1, "prazer": 1, "gentil": 1, 
+    "vibrante": 1, "alegria": 1, "paz": 1, "sucesso": 1, "bom": 1, "boa": 1, 
+    "gosto": 1, "gostei": 1, "facilitam": 1, "facilita": 1, "recomendo": 1, 
+    "positivo": 1, "legal": 1, "bacana": 1, "interessante": 1, "útil": 1,
+    "agradável": 1, "contente": 1, "eficiente": 1, "rápido": 1, "atencioso": 1,
 
-        "tom": 0, "bege": 0, "reunião": 0, "marcada": 0, "dez": 0, "manhã": 0,
-        "carro": 0, "atravessou": 0, "esquerda": 0, "livro": 0, "páginas": 0,
-        "técnico": 0, "temperatura": 0, "graus": 0, "alumínio": 0, "relatório": 0,
-        "dados": 0, "trimestre": 0, "auditório": 0, "prédio": 0, "chaves": 0,
-        "porta": 0, "escala": 0, "documento": 0, "assinado": 0, "madeira": 0,
-        "ônibus": 0, "parada": 0, "lâmpada": 0, "mercado": 0, "tomada": 0, "seco": 0, "inverno": 0
+    "péssimo": -2, "péssima": -2, "horrível": -2, "detestei": -2, "insuportável": -2, 
+    "injusto": -2, "abusivo": -2, "odiei": -2, "terrivelmente": -2, "pavoroso": -2,
+    "horroroso": -2, "deplorável": -2, "execrável": -2, "miserável": -2, "catastrófico": -2,
+    "inaceitável": -2, "repugnante": -2, "nojento": -2, "trágico": -2,
+
+    "quebrado": -1, "quebrada": -1, "amassada": -1, "amassado": -1, "entediante": -1, 
+    "ruim": -1, "atrasar": -1, "atrasado": -1, "vazio": -1, "tristeza": -1, "triste": -1,
+    "decepcionado": -1, "decepção": -1, "falta": -1, "irritante": -1, "irritado": -1,
+    "sujo": -1, "suja": -1, "frio": -1, "perdi": -1, "vírus": -1, "lento": -1, 
+    "ineficiente": -1, "infelizmente": -1, "negou": -1, "erro": -1, "erros": -1, 
+    "perda": -1, "caiu": -1, "difícil": -1, "mal": -1, "chato": -1,
+    "caro": -1, "demorado": -1, "complicado": -1, "feio": -1, "estragado": -1,
+
+    "tom": 0, "bege": 0, "reunião": 0, "marcada": 0, "dez": 0, "manhã": 0, "tarde": 0,
+    "noite": 0, "carro": 0, "atravessou": 0, "esquerda": 0, "direita": 0, "livro": 0, 
+    "páginas": 0, "técnico": 0, "temperatura": 0, "graus": 0, "alumínio": 0, 
+    "relatório": 0, "dados": 0, "trimestre": 0, "auditório": 0, "prédio": 0, 
+    "chaves": 0, "porta": 0, "escala": 0, "documento": 0, "assinado": 0, 
+    "madeira": 0, "ônibus": 0, "parada": 0, "lâmpada": 0, "mercado": 0, 
+    "tomada": 0, "seco": 0, "inverno": 0, "hoje": 0, "ontem": 0, "semana": 0,
+    "mês": 0, "ano": 0, "cor": 0, "parede": 0, "mesa": 0, "cadeira": 0, "celular": 0
     },
 
     "conectivos": [
