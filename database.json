@@ -1,0 +1,254 @@
+
+{
+    "frases": [
+        {
+            "texto": "O atendimento na loja foi simplesmente excelente.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O produto chegou quebrado e a caixa estava amassada.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "A cor da parede é um tom de bege claro.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Estou muito feliz com os resultados do meu projeto.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O filme é extremamente entediante e sem sentido.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "A reunião está marcada para as dez horas da manhã.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Adorei a comida, o tempero estava no ponto certo.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O serviço de internet caiu três vezes hoje.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O carro atravessou a rua e virou à esquerda.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Que dia maravilhoso para um passeio no parque!", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "Nunca mais volto nesse restaurante, fui mal tratado.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O livro possui duzentas páginas de conteúdo técnico.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Ganhei um bônus inesperado e estou radiante.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O preço deste computador é abusivo e injusto.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "A temperatura hoje deve ficar em torno de 25 graus.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "A viagem superou todas as minhas expectativas.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "Sinto um vazio enorme e muita tristeza hoje.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O portão da garagem é feito de alumínio.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Parabéns pelo sucesso, você merece tudo de bom!", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O trânsito está horrível e vou me atrasar muito.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O relatório contém os dados do último trimestre.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Este café é o melhor que já provei na vida.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "A bateria do celular não dura nem duas horas.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O evento acontecerá no auditório principal do prédio.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "É incrível como a tecnologia facilita nossa rotina.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "Fiquei decepcionado com a falta de suporte técnico.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "As chaves estão penduradas no gancho atrás da porta.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "O design da nova interface ficou elegante e intuitivo.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O barulho da obra ao lado é insuportável e irritante.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O vôo tem uma escala prevista em Brasília.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Agradeço imensamente pela ajuda e pelo carinho.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O hotel era sujo e o café da manhã estava frio.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O documento precisa ser assinado e digitalizado.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Sinto-me renovado após essa pausa relaxante.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "Perdi todos os meus arquivos por causa de um vírus.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "A mesa da cozinha é de madeira escura.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Que notícia fantástica, estou muito empolgado!", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O atendimento telefônico é lento e ineficiente.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O ônibus passa nesta parada a cada vinte minutos.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "A paisagem do topo da montanha é deslumbrante.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "Infelizmente, o plano de saúde negou o exame.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "A lâmpada da sala queimou ontem à noite.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "É um prazer imenso conhecer alguém tão gentil.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O site está cheio de erros e links quebrados.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O mercado fecha às dez horas nos fins de semana.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "O show foi vibrante e a energia estava lá em cima.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "Detestei o final da série, foi uma perda de tempo.", 
+            "sentimento": "Negativo" 
+        },
+        { 
+            "texto": "O carregador está conectado na tomada do quarto.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Desejo a você um ano repleto de alegria e paz.", 
+            "sentimento": "Positivo" 
+        },
+        { 
+            "texto": "O clima na cidade é seco durante o inverno.", 
+            "sentimento": "Neutro" 
+        },
+        { 
+            "texto": "Não gosto de gente gentil.", 
+            "sentimento": "negativo" 
+        }
+    ],
+
+    "pesos": {
+        "excelente": 2, "feliz": 1, "adorei": 1, "maravilhoso": 2, "radiante": 1,
+        "superou": 1, "parabéns": 1, "melhor": 1, "incrível": 1, "elegante": 1,
+        "intuitivo": 1, "agradeço": 1, "imensamente": 1, "carinho": 1, "renovado": 1,
+        "relaxante": 1, "fantástica": 2, "empolgado": 1, "deslumbrante": 1, "prazer": 1,
+        "gentil": 1, "vibrante": 1, "alegria": 1, "paz": 1, "sucesso": 1, "bom": 1, "ótimo": 2,
+
+        "quebrado": -1, "amassada": -1, "entediante": -1, "ruim": -1, "péssimo": -2,
+        "horrível": -2, "atrasar": -1, "vazio": -1, "tristeza": -1, "injusto": -1,
+        "abusivo": -1, "decepcionado": -1, "falta": -1, "insuportável": -1, "irritante": -1,
+        "sujo": -1, "frio": -1, "perdi": -1, "vírus": -1, "lento": -1, "ineficiente": -1,
+        "infelizmente": -1, "negou": -1, "erro": -1, "erros": -1, "detestei": -2, "perda": -1, "caiu": -1,
+
+        "tom": 0, "bege": 0, "reunião": 0, "marcada": 0, "dez": 0, "manhã": 0,
+        "carro": 0, "atravessou": 0, "esquerda": 0, "livro": 0, "páginas": 0,
+        "técnico": 0, "temperatura": 0, "graus": 0, "alumínio": 0, "relatório": 0,
+        "dados": 0, "trimestre": 0, "auditório": 0, "prédio": 0, "chaves": 0,
+        "porta": 0, "escala": 0, "documento": 0, "assinado": 0, "madeira": 0,
+        "ônibus": 0, "parada": 0, "lâmpada": 0, "mercado": 0, "tomada": 0, "seco": 0, "inverno": 0
+    },
+
+    "conectivos": [
+        "a", "agora", "algum", "alguma", "aquele", "aqueles", "ao", "aos", "as", "através",
+        "com", "como", "da", "das", "de", "dela", "delas", "dele", "deles", "depois", "do",
+        "dos", "dum", "duma", "e", "em", "entre", "era", "eram", "é", "essa", "essas",
+        "esse", "esses", "esta", "estamos", "estas", "estava", "estavam", "este", "esteja",
+        "estejam", "estejamos", "estes", "esteve", "estive", "estivemos", "estiver",
+        "estivera", "estiveram", "estiverem", "estivermos", "estivesse", "estivessem",
+        "estivéramos", "estivéssemos", "estou", "eu", "foi", "fomos", "for", "fora",
+        "foram", "forem", "formos", "fosse", "fossem", "fôramos", "fôssemos", "fui",
+        "há", "haja", "hajam", "hajamos", "hão", "haver", "haverá", "haverão", "haveria",
+        "haveriam", "haveríamos", "havia", "haviam", "havíamos", "houve", "houvemos",
+        "houvera", "houveram", "houvéramos", "isso", "isto", "já", "lhe", "lhes", "mais",
+        "mas", "me", "mesmo", "meu", "meus", "minha", "minhas", "muito", "na", "nas",
+        "nem", "no", "nos", "nossa", "nossas", "nosso", "nossos", "num", "numa",
+        "o", "os", "ou", "outra", "outras", "outro", "outros", "para", "pela", "pelas",
+        "pelo", "pelos", "pois", "por", "qual", "quando", "que", "quem", "são",
+        "se", "seja", "sejam", "sejamos", "sem", "ser", "será", "serão", "seria", "seriam",
+        "seríamos", "seu", "seus", "só", "somos", "sou", "sua", "suas", "também", "te",
+        "tem", "temos", "tenha", "tenham", "tenhamos", "tenho", "terá", "terão", "teria",
+        "teriam", "teríamos", "teu", "teus", "teve", "tinha", "tinham", "tínhamos", "tive",
+        "tivemos", "tivera", "tiveram", "tivéramos", "tivesse", "tivessem", "tivéssemos",
+        "toda", "todas", "todo", "todos", "tu", "tua", "tuas", "um", "uma", "você", "vocês", "vos"
+    ]
+}
